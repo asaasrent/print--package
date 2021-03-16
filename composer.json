@@ -1,0 +1,23 @@
+{
+    "name": "asaas-rent/print",
+    "description": "This will display a message",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Test\\PrintMessage\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Test\\PrintMessage\\PrintServiceProvider"
+            ]
+
+        }
+    }
+}
+
+
